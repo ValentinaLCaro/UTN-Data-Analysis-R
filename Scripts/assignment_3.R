@@ -1,7 +1,30 @@
 # -----------------------------------------------------------------------------
 # PROJECT: University INNOVA XXII - Student Satisfaction Study
 # ASSIGNMENT 3: Probability Models (Binomial, Poisson, and Normal)
-
+# 
+# INSTRUCTIONS:
+# 1. Binomial Model (n = 16 students selected from the population):
+#    Calculate the probabilities for the following academic satisfaction scenarios:
+#    a. More than 9 students are "Very Satisfied" with the career.
+#    b. Between 4 and 8 students are "Satisfied" with the career.
+#    c. Fewer than 5 students are "Unsatisfied" with the career.
+#    d. Exactly 10 students are "Very Unsatisfied" with the career.
+#
+# 2. Poisson Model (Average rate lambda = 15 student inquiries per 30 minutes):
+#    Calculate the following queuing probabilities:
+#    a. At least 6 inquiries arrive in a 20-minute window.
+#    b. At most 12 inquiries arrive in a 40-minute window.
+#    c. More than 7 and fewer than 10 inquiries arrive in a 30-minute window.
+#
+# 3. Normal Distribution Model (Applied to student height data):
+#    a. Calculate the probability of a random student being >= 179 cm tall.
+#    b. Calculate the probability of a random student being between 147 cm and 172 cm tall.
+#    c. Find the 97.5th percentile value (the height that exceeds 97.5% of the data).
+#
+# TECHNICAL CONSTRAINTS & FEATURES:
+# - Symmetric rounding with 4 decimal places of precision.
+# - Automated probability curve plotting with custom geometric region shading.
+# -----------------------------------------------------------------------------
 
 if (!require(readxl)) install.packages("readxl")
 library(readxl)
